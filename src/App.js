@@ -10,7 +10,10 @@ function App() {
   const [college, setCollege] = useState('Nepal');
 
   async function getMovie() {
-    const collegeData = await fetch(`http://universities.hipolabs.com/search?country=${college}`)
+    const body = {
+      "url":`http://universities.hipolabs.com/search?country=${college}`
+    }
+    const collegeData = await fetch('https://notbrowserapp-1-e9002758.deta.app/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
     const collegeList = await collegeData.json();
     const transformData = collegeList.map(college => {
       return {

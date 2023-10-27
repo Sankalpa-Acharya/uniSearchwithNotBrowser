@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uniSearchwithNotBrowser/static/css/main.bc0e61bc.css",
+    "main.js": "/uniSearchwithNotBrowser/static/js/main.bc0c5760.js",
+    "static/js/787.d9effb5c.chunk.js": "/uniSearchwithNotBrowser/static/js/787.d9effb5c.chunk.js",
+    "index.html": "/uniSearchwithNotBrowser/index.html",
+    "main.bc0e61bc.css.map": "/uniSearchwithNotBrowser/static/css/main.bc0e61bc.css.map",
+    "main.bc0c5760.js.map": "/uniSearchwithNotBrowser/static/js/main.bc0c5760.js.map",
+    "787.d9effb5c.chunk.js.map": "/uniSearchwithNotBrowser/static/js/787.d9effb5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0e61bc.css",
+    "static/js/main.bc0c5760.js"
+  ]
+}
